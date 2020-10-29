@@ -4,12 +4,13 @@
 ## Cite
 
 Kindly cite our paper in your research.
-@inproceedings{mesaros2017dcase,
-  title={DCASE 2017 challenge setup: Tasks, datasets and baseline system},
-  author={Mesaros, Annamaria and Heittola, Toni and Diment, Aleksandr and Elizalde, Benjamin and Shah, Ankit and Vincent, Emmanuel and Raj, Bhiksha and Virtanen, Tuomas},
-  booktitle={DCASE 2017-Workshop on Detection and Classification of Acoustic Scenes and Events},
-  year={2017}
-}
+
+	@inproceedings{mesaros2017dcase,
+	  title={DCASE 2017 challenge setup: Tasks, datasets and baseline system},
+	  author={Mesaros, Annamaria and Heittola, Toni and Diment, Aleksandr and Elizalde, Benjamin and Shah, Ankit and Vincent, Emmanuel and Raj, Bhiksha and Virtanen, Tuomas},
+	  booktitle={DCASE 2017-Workshop on Detection and Classification of Acoustic Scenes and Events},
+	  year={2017}
+	}
 
 ## Coordinators
 
