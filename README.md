@@ -1,20 +1,15 @@
 
 # Task 4 Large-scale weakly supervised sound event detection for smart cars
 
-### Update Log 
------------------
+## Cite
 
-* August 16: Addition of script for SubTaskB computation for participant's convenience
-* July 19: Update to params for Task 4 to maintain consistency with Task 3 parameters
-* July 8: Corner case SubTaskA metrics - bug fix for compute metrics function. Additional files added to the prediction folder located in evaluation for sanity checks of metrics computation script. 
-* July 4: Added development as well as challenge support after incorporating latest paramount changes from DCASE Framework repository made by Toni on July 3rd. Integration testing for challenge and development setup done.  
-* June 26: Added script to compute duration of audio files. Added Training and testing set duration of audio files as a reference for participants to cross check with. Alternate Method to download audio for Development Set [Training and Testing Set] updated.  
-* June 24: Modification to groundtruth_strong_label_testing_set.csv - Fixed annotations for redundant class
-* June 21: Carriage return removal from groundtruth weak and strong labels csv files. 
-* June 17: Evaluation Script Update for ClassWise Metrics Computation for Task4 SubTaskAMetrics
-* May 1: Added baseline code (based on Task 3's system), performance and Subtask A metric code.
-* April 2: Added strong labels.
-* April 1: Added evaluation folder. 
+Kindly cite our paper in your research.
+@inproceedings{mesaros2017dcase,
+  title={DCASE 2017 challenge setup: Tasks, datasets and baseline system},
+  author={Mesaros, Annamaria and Heittola, Toni and Diment, Aleksandr and Elizalde, Benjamin and Shah, Ankit and Vincent, Emmanuel and Raj, Bhiksha and Virtanen, Tuomas},
+  booktitle={DCASE 2017-Workshop on Detection and Classification of Acoustic Scenes and Events},
+  year={2017}
+}
 
 ## Coordinators
 
@@ -104,6 +99,10 @@ Sample Usage -  python download_audio.py training_set.csv
 
 * Development Set :- Training - https://goo.gl/rXnXh3. Testing - https://goo.gl/GiCCiX
 * DCASE Forum [https://groups.google.com/forum/#!forum/dcase-discussions] contains password to the download files. 
+Passwords:
+Training file  - DCASE_2017_training_set
+Testing file  - DCASE_2017_testing_set
+Evaluation file - DCASE_2017_evaluation_set
 
 #### User Modifiable Parameters and Options 
 
@@ -164,3 +163,18 @@ $bash bash_find_duration_of_audio_file.sh <training/testing/evaluation> \<Audio 
 -------------------------------------------------
 
 DCASE 2017 Results - http://www.cs.tut.fi/sgn/arg/dcase2017/challenge/task-large-scale-sound-event-detection-results
+
+### Update Log 
+-----------------
+
+* August 16: Addition of script for SubTaskB computation for participant's convenience
+* July 19: Update to params for Task 4 to maintain consistency with Task 3 parameters
+* July 8: Corner case SubTaskA metrics - bug fix for compute metrics function. Additional files added to the prediction folder located in evaluation for sanity checks of metrics computation script. 
+* July 4: Added development as well as challenge support after incorporating latest paramount changes from DCASE Framework repository made by Toni on July 3rd. Integration testing for challenge and development setup done.  
+* June 26: Added script to compute duration of audio files. Added Training and testing set duration of audio files as a reference for participants to cross check with. Alternate Method to download audio for Development Set [Training and Testing Set] updated.  
+* June 24: Modification to groundtruth_strong_label_testing_set.csv - Fixed annotations for redundant class
+* June 21: Carriage return removal from groundtruth weak and strong labels csv files. 
+* June 17: Evaluation Script Update for ClassWise Metrics Computation for Task4 SubTaskAMetrics
+* May 1: Added baseline code (based on Task 3's system), performance and Subtask A metric code.
+* April 2: Added strong labels.
+* April 1: Added evaluation folder. 
