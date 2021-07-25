@@ -18,11 +18,11 @@ Benjamin Elizalde, Emmanuel Vincent, Bhiksha Raj
 
 ## Data Preparation, Annotations
 
-Ankit Shah (ankit.tronix@gmail.com), Benjamin Elizalde (bmartin1@andrew.cmu.edu)
+Ankit Shah (ankit.tronix@gmail.com), Benjamin Elizalde (bmartin1@alumni.cmu.edu)
 
 ## Annotations, Baseline and Subtask A Metric
 
-Rohan Badlani (rohan.badlani@gmail.com), Benjamin Elizalde (bmartin1@andrew.cmu.edu)
+Rohan Badlani (rohan.badlani@gmail.com), Benjamin Elizalde (bmartin1@alumni.cmu.edu)
 
 ## Index
 1. Script to download the development data for Task 4
